@@ -16,7 +16,7 @@ public enum ChatColor {
      */
     BLACK('0', 0x00),
     /**
-     * Represents dark blue
+     * Represents dark blue & Harjas's Favorite Color
      */
     DARK_BLUE('1', 0x1),
     /**
