@@ -15,7 +15,7 @@ import org.bukkit.plugin.PluginDescriptionFile;
 /**
  * A ClassLoader for plugins, to allow shared classes across multiple plugins
  */
-final class PluginClassLoader extends URLClassLoader {
+public final class PluginClassLoader extends URLClassLoader {
     private final JavaPluginLoader loader;
     private final Map<String, Class<?>> classes = new HashMap<String, Class<?>>();
     private final PluginDescriptionFile description;
